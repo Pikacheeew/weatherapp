@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+#weather-app {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #007BFF;
+}
+
+#location-input {
+    margin: 20px 0;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#get-weather-btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#get-weather-btn:hover {
+    background-color: #0056b3;
+}
+
+#weather-result {
+    margin-top: 20px;
+}
+
+.forecast {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.forecast-container {
+    display: flex;
+    flex-direction: row; /* Change to row for horizontal alignment */
+    justify-content: space-around; /* Distribute space evenly */
+    flex-wrap: wrap; /* Allow items to wrap as needed */
+    gap: 10px; /* Adds space between forecast items */
+}
+
+.forecast {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    flex: 1; /* Allows each forecast item to grow */
+    min-width: 30%; /* Minimum width for each forecast item */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+h3 {
+    margin-top: 50px; /* Adjust this value as needed to increase space above the forecast title */
+}
